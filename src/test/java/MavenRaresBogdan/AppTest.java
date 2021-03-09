@@ -56,14 +56,13 @@ public class AppTest
 
     @Test
     public void testAddStudentSuccess() {
-        assertEquals(service.saveStudent("9", "Diana", 935), 1);
+        assertEquals(service.saveStudent("15", "Diana", 935), 1);
     }
-
-
+    
     @Test
     public void testAddStudentFailure() {
-        assertEquals(service.saveStudent("8", "Roland", 934), 1);
-        assertEquals(service.saveStudent("8", "Roland", 934), 0);
+        assertEquals(service.saveStudent("16", "Roland", 934), 1);
+        assertEquals(service.saveStudent("16", "Roland", 934), 0);
 
     }
 }
