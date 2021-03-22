@@ -42,11 +42,41 @@ public class AppTest
     private Validator<Tema> temaValidator = new TemaValidator();
     private Validator<Nota> notaValidator = new NotaValidator();
 
-    private StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "studenti.xml");
-    private TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
-    private NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+    private StudentXMLRepository fileRepository1;
+    private TemaXMLRepository fileRepository2;
+    private NotaXMLRepository fileRepository3;
 
     Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
+
+
+
+    @Before
+    public void setup() {
+        Validator<Student> vs = new StudentValidator();
+        Validator<Nota> ns = new NotaValidator();
+        Validator<Tema> ts = new TemaValidator();
+
+
+        fileRepository1 = new StudentXMLRepository(vs, "studenti.xml");
+        fileRepository3 = new NotaXMLRepository(ns, "note.xml");
+        fileRepository2 = new TemaXMLRepository(ts, "teme.xml");
+        service = new Service(fileRepository1, fileRepository2, fileRepository3);
+
+    }
+
+    @After
+    public void tearDown() {
+        try {
+            String defaultFileContent = new String(Files.readAllBytes(Paths.get("default")), StandardCharsets.UTF_8);
+
+            PrintWriter printWriter = new PrintWriter("studenti.xml");
+
+            printWriter.print(defaultFileContent);
+            printWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Test
     public void shouldAnswerWithTrue()
@@ -54,21 +84,21 @@ public class AppTest
         assertTrue( true );
     }
 
-    @Test
-    public void testAddStudentSuccess() {
-        assertEquals(service.saveStudent("15", "Diana", 935), 1);
-    }
-    
-    @Test
-    public void testAddStudentFailure() {
-        assertEquals(service.saveStudent("16", "Roland", 934), 1);
-        assertEquals(service.saveStudent("16", "Roland", 934), 0);
-
-    }
+//    @Test
+//    public void testAddStudentSuccess() {
+//        assertEquals(service.saveStudent("15", "Diana", 935), 1);
+//    }
+//
+//    @Test
+//    public void testAddStudentFailure() {
+//        assertEquals(service.saveStudent("16", "Roland", 934), 1);
+//        assertEquals(service.saveStudent("16", "Roland", 934), 0);
+//
+//    }
 
     @Test
     public void TC1_BBT_EC() {
-        assertEquals(service.saveStudent("0", "Ema", 936), 1);
+        assertEquals(service.saveStudent("0", "Ema", 938), 0);
     }
 
     @Test
@@ -77,11 +107,13 @@ public class AppTest
     }
 
     @Test
-    public void TC3_BBT_EC() { assertEquals(service.saveStudent("0", "Ema", 938), 0); }
+    public void TC3_BBT_EC() {
+        assertEquals(service.saveStudent("0", "", 936), 0);
+    }
 
     @Test
     public void TC4_BBT_EC() {
-        assertEquals(service.saveStudent("0", "Ema", 939), 0);
+        assertEquals(service.saveStudent("0", "Ema", 938), 0);
     }
 
     @Test

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="" />
+    <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/default" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +31,14 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pWoSyhCDW49qz08deM1tXSis3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSVV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
@@ -45,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testAddStudentFailure">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2Maven" />
+  <component name="RunManager" selected="JUnit.AppTest (1)">
+    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MavenRaresBogdan.*" />
@@ -61,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddStudentFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2Maven" />
+    <configuration name="AppTest.TC1_BBT_EC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MavenRaresBogdan.*" />
@@ -71,14 +79,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
       <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentFailure" />
+      <option name="METHOD_NAME" value="TC1_BBT_EC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddStudentSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2Maven" />
+    <configuration name="AppTest.TC3_BBT_EC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MavenRaresBogdan.*" />
@@ -87,7 +95,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
       <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentSuccess" />
+      <option name="METHOD_NAME" value="TC3_BBT_EC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.TC5_BBT_BVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="METHOD_NAME" value="TC5_BBT_BVA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.TC7_BBT_BVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="METHOD_NAME" value="TC7_BBT_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,9 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testAddStudentFailure" />
-        <item itemvalue="JUnit.AppTest.testAddStudentSuccess" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest (1)" />
+        <item itemvalue="JUnit.AppTest.TC5_BBT_BVA" />
+        <item itemvalue="JUnit.AppTest.TC7_BBT_BVA" />
+        <item itemvalue="JUnit.AppTest.TC1_BBT_EC" />
+        <item itemvalue="JUnit.AppTest.TC3_BBT_EC" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +157,8 @@
       <workItem from="1615309520798" duration="1200000" />
       <workItem from="1615311463711" duration="26000" />
       <workItem from="1615312253563" duration="262000" />
+      <workItem from="1616076067311" duration="2610000" />
+      <workItem from="1616422034247" duration="5981000" />
     </task>
     <servers />
   </component>
