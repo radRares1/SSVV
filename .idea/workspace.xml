@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/default" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-=======
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -25,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
     </list>
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-=======
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
   </component>
   <component name="ProjectId" id="1pWoSyhCDW49qz08deM1tXSis3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,11 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../licenta/proiect/research-project" />
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
@@ -81,35 +62,21 @@
       <recent name="C:\Users\Rares2\Desktop\an3\sem2Eu\validare\SSVV\src\main\java" />
     </key>
   </component>
-<<<<<<< HEAD
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.AppTest (1)">
     <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV" />
-=======
-  <component name="RunManager" selected="JUnit.AppTest.TC1_BBT_EC">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SSVV" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2Maven" />
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MavenRaresBogdan.*" />
@@ -125,25 +92,6 @@
     </configuration>
     <configuration name="AppTest.TC1_BBT_EC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV" />
-<<<<<<< HEAD
-=======
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
-      <option name="METHOD_NAME" value="TC1_BBT_EC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testAddStudentFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2Maven" />
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MavenRaresBogdan.*" />
@@ -208,23 +156,15 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
         <item itemvalue="JUnit.AppTest (1)" />
         <item itemvalue="JUnit.AppTest.TC5_BBT_BVA" />
         <item itemvalue="JUnit.AppTest.TC7_BBT_BVA" />
         <item itemvalue="JUnit.AppTest.TC1_BBT_EC" />
         <item itemvalue="JUnit.AppTest.TC3_BBT_EC" />
-=======
-        <item itemvalue="JUnit.AppTest.TC1_BBT_EC" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AppTest.testAddStudentFailure" />
-        <item itemvalue="JUnit.AppTest.testAddStudentSuccess" />
-        <item itemvalue="JUnit.AppTest" />
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -239,10 +179,6 @@
       <workItem from="1615309520798" duration="1200000" />
       <workItem from="1615311463711" duration="26000" />
       <workItem from="1615312253563" duration="262000" />
-<<<<<<< HEAD
-      <workItem from="1616076067311" duration="2610000" />
-      <workItem from="1616422034247" duration="5981000" />
-=======
       <workItem from="1616078025910" duration="1759000" />
       <workItem from="1616232512880" duration="8214000" />
     </task>
@@ -252,7 +188,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1616328149061</updated>
->>>>>>> 4682f3fae4cd1a4aedfe69ae879bee4c88806a09
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -265,12 +200,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add the test methds" />
