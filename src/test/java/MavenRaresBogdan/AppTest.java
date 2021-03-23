@@ -68,10 +68,14 @@ public class AppTest
     public void tearDown() {
         try {
             String defaultFileContent = new String(Files.readAllBytes(Paths.get("default")), StandardCharsets.UTF_8);
+            String defaultFileContentTeme = new String(Files.readAllBytes(Paths.get("defaultTeme")), StandardCharsets.UTF_8);
 
             PrintWriter printWriter = new PrintWriter("studenti.xml");
+            PrintWriter printWriterTeme = new PrintWriter("teme.xml");
 
             printWriter.print(defaultFileContent);
+            printWriterTeme.print(defaultFileContentTeme);
+            printWriterTeme.close();
             printWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -153,5 +157,21 @@ public class AppTest
     @Test
     public void TC13_BBT_BVA() {
         assertEquals(service.saveStudent("0", null, 123), 0);
+    }
+
+
+
+    /// wbt
+
+    @Test
+    public void testAddAssignmentSuccess() {
+
+        assertEquals(service.saveTema("1", "Primul Laborator", 8, 6), 1);
+    }
+
+    @Test
+    public void testAddAssignmentFailure() {
+        assertEquals(service.saveTema("8", "g", 8, 7), 1);
+        assertEquals(service.saveTema("8", "g", 8, 7), 0);
     }
 }
