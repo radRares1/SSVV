@@ -159,14 +159,11 @@ public class AppTest
         assertEquals(service.saveStudent("0", null, 123), 0);
     }
 
-
-
     /// wbt
 
     @Test
     public void testAddAssignmentSuccess() {
-
-        assertEquals(service.saveTema("1", "Primul Laborator", 8, 6), 1);
+        assertEquals(service.saveTema("5", "Primul Laborator", 8, 6), 1);
     }
 
     @Test
@@ -174,4 +171,36 @@ public class AppTest
         assertEquals(service.saveTema("8", "g", 8, 7), 1);
         assertEquals(service.saveTema("8", "g", 8, 7), 0);
     }
+
+    @Test
+    public void TC1_WBT(){
+        assertEquals(service.saveTema(null,"idk",2,1),0);
+    }
+
+    @Test
+    public void TC2_WBT(){
+        assertEquals(service.saveTema("1","",2,1),0);
+    }
+
+    @Test
+    public void TC3_WBT(){
+        assertEquals(service.saveTema("1","idk",-1,2),0);
+    }
+
+    @Test
+    public void TC4_WBT(){
+        assertEquals(service.saveTema("1","idk",1,-1),0);
+    }
+
+    @Test
+    public void TC5_WBT(){
+        assertEquals(service.saveTema("1","idk",2,1),1);
+    }
+
+    @Test
+    public void TC6_WBT(){
+        assertEquals(service.saveTema("1","idk",2,1),1);
+        assertEquals(service.saveTema("1","idk",2,1),0);
+    }
+
 }

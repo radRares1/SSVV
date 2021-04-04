@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/defaultTeme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,19 +58,18 @@
       <recent name="C:\Users\Rares2\Desktop\an3\sem2Eu\validare\SSVV\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.AppTest (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV" />
       <extension name="coverage">
@@ -100,22 +96,6 @@
       <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
       <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="METHOD_NAME" value="TC1_BBT_EC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.TC3_BBT_EC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSVV" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
-      <option name="METHOD_NAME" value="TC3_BBT_EC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,17 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testAddAssignmentSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppTest (1)" />
+        <item itemvalue="JUnit.AppTest.testAddAssignmentSuccess" />
         <item itemvalue="JUnit.AppTest.TC5_BBT_BVA" />
         <item itemvalue="JUnit.AppTest.TC7_BBT_BVA" />
         <item itemvalue="JUnit.AppTest.TC1_BBT_EC" />
-        <item itemvalue="JUnit.AppTest.TC3_BBT_EC" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,6 +177,7 @@
       <workItem from="1616078025910" duration="1759000" />
       <workItem from="1616232512880" duration="8214000" />
       <workItem from="1616516649981" duration="1173000" />
+      <workItem from="1617533907583" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="add the test methds">
       <created>1616328149061</created>
@@ -193,20 +190,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add the test methds" />
