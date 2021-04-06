@@ -1,4 +1,4 @@
-package MavenRaresBogdan;
+package Lab2Maven;
 
 /**
  * Hello world!

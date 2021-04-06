@@ -1,9 +1,7 @@
-package MavenRaresBogdan;
+package Lab2Maven;
 
 import static org.junit.Assert.assertTrue;
 
-import com.sun.jmx.mbeanserver.Repository;
-import console.UI;
 import domain.Nota;
 import domain.Student;
 import domain.Tema;
@@ -19,7 +17,6 @@ import validation.Validator;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -69,14 +66,18 @@ public class AppTest
         try {
             String defaultFileContent = new String(Files.readAllBytes(Paths.get("default")), StandardCharsets.UTF_8);
             String defaultFileContentTeme = new String(Files.readAllBytes(Paths.get("defaultTeme")), StandardCharsets.UTF_8);
+            String defaultFileContentNota = new String(Files.readAllBytes(Paths.get("defaultNote.xml")), StandardCharsets.UTF_8);
 
             PrintWriter printWriter = new PrintWriter("studenti.xml");
             PrintWriter printWriterTeme = new PrintWriter("teme.xml");
+            PrintWriter printWriterNota = new PrintWriter("note.xml");
 
             printWriter.print(defaultFileContent);
             printWriterTeme.print(defaultFileContentTeme);
+            printWriterNota.print(defaultFileContentNota);
             printWriterTeme.close();
             printWriter.close();
+            printWriterNota.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -161,16 +162,16 @@ public class AppTest
 
     /// wbt
 
-    @Test
-    public void testAddAssignmentSuccess() {
-        assertEquals(service.saveTema("5", "Primul Laborator", 8, 6), 1);
-    }
-
-    @Test
-    public void testAddAssignmentFailure() {
-        assertEquals(service.saveTema("8", "g", 8, 7), 1);
-        assertEquals(service.saveTema("8", "g", 8, 7), 0);
-    }
+//    @Test
+//    public void testAddAssignmentSuccess() {
+//        assertEquals(service.saveTema("5", "Primul Laborator", 8, 6), 1);
+//    }
+//
+//    @Test
+//    public void testAddAssignmentFailure() {
+//        assertEquals(service.saveTema("8", "g", 8, 7), 1);
+//        assertEquals(service.saveTema("8", "g", 8, 7), 0);
+//    }
 
     @Test
     public void TC1_WBT(){
@@ -201,6 +202,32 @@ public class AppTest
     public void TC6_WBT(){
         assertEquals(service.saveTema("1","idk",2,1),1);
         assertEquals(service.saveTema("1","idk",2,1),0);
+    }
+
+
+    //lab 4 THE BIG BIG BANG
+
+
+    public void testAddAssignment(){
+        assertEquals(service.saveTema("1", "1", 8, 7), 1);
+    }
+
+
+    public void testAddStudent(){
+        assertEquals(service.saveStudent("6", "Andrei", 231), 1);
+    }
+
+
+    public void testAddGrade(){
+        assertEquals(service.saveNota("1000", "1000", 9, 3, "good"), -1);
+    }
+
+
+    @Test
+    public void testBigBang(){
+        testAddAssignment();
+        testAddStudent();
+        testAddGrade();
     }
 
 }

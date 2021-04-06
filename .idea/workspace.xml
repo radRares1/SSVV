@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MavenRaresBogdan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2Maven/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +51,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV\target" />
       <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV" />
       <recent name="C:\Users\Rares2\Desktop\an3\sem2Eu\validare\SSVV\src\main\java" />
     </key>
@@ -72,16 +77,16 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.AppTest (1)">
-    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="PATTERN" value="Lab2Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,12 +96,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="PATTERN" value="Lab2Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
       <option name="METHOD_NAME" value="TC1_BBT_EC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -107,12 +112,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="PATTERN" value="Lab2Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
       <option name="METHOD_NAME" value="TC5_BBT_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -123,12 +128,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="PATTERN" value="Lab2Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
       <option name="METHOD_NAME" value="TC7_BBT_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -139,12 +144,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MavenRaresBogdan.*" />
+          <option name="PATTERN" value="Lab2Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
-      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
       <option name="METHOD_NAME" value="testAddAssignmentSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -180,7 +185,7 @@
       <workItem from="1616232512880" duration="8214000" />
       <workItem from="1616516649981" duration="1173000" />
       <workItem from="1617533907583" duration="5997000" />
-      <workItem from="1617715737517" duration="718000" />
+      <workItem from="1617715737517" duration="2164000" />
     </task>
     <task id="LOCAL-00001" summary="add the test methds">
       <created>1616328149061</created>
