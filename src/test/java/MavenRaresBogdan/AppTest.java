@@ -100,64 +100,64 @@ public class AppTest
 //
 //    }
 
-    @Test
-    public void TC1_BBT_EC() {
-        assertEquals(service.saveStudent("0", "Ema", 938), 0);
-    }
-
-    @Test
-    public void TC2_BBT_EC() {
-        assertEquals(service.saveStudent(null, "Ema", 936), 0);
-    }
-
-    @Test
-    public void TC3_BBT_EC() {
-        assertEquals(service.saveStudent("0", "", 936), 0);
-    }
-
-    @Test
-    public void TC4_BBT_EC() {
-        assertEquals(service.saveStudent("0", "Ema", 938), 0);
-    }
-
-    @Test
-    public void TC5_BBT_BVA() {
-        assertEquals(service.saveStudent("0", "Ema", 111), 1);
-    }
-
-    @Test
-    public void TC6_BBT_BVA() {
-        assertEquals(service.saveStudent("0", "Ema", 109), 0);
-    }
-
-    @Test
-    public void TC7_BBT_BVA() { assertEquals(service.saveStudent("0", "Ema", 937), 1); }
-
-    @Test
-    public void TC8_BBT_BVA() {
-        assertEquals(service.saveStudent("0", "Ema", 938), 0);
-    }
-
-    @Test
-    public void TC9_BBT_BVA() { assertEquals(service.saveStudent("0", "Ema", 200), 1); }
-
-    @Test
-    public void TC10_BBT_BVA() {
-        assertEquals(service.saveStudent("0", "Ema", -1), 0);
-    }
-
-    @Test
-    public void TC11_BBT_BVA() { assertEquals(service.saveStudent("0", "abc", 123), 1); }
-
-    @Test
-    public void TC12_BBT_BVA() {
-        assertEquals(service.saveStudent("0", "", 123), 0);
-    }
-
-    @Test
-    public void TC13_BBT_BVA() {
-        assertEquals(service.saveStudent("0", null, 123), 0);
-    }
+//    @Test
+//    public void TC1_BBT_EC() {
+//        assertEquals(service.saveStudent("0", "Ema", 938), 0);
+//    }
+//
+//    @Test
+//    public void TC2_BBT_EC() {
+//        assertEquals(service.saveStudent(null, "Ema", 936), 0);
+//    }
+//
+//    @Test
+//    public void TC3_BBT_EC() {
+//        assertEquals(service.saveStudent("0", "", 936), 0);
+//    }
+//
+//    @Test
+//    public void TC4_BBT_EC() {
+//        assertEquals(service.saveStudent("0", "Ema", 938), 0);
+//    }
+//
+//    @Test
+//    public void TC5_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", "Ema", 111), 1);
+//    }
+//
+//    @Test
+//    public void TC6_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", "Ema", 109), 0);
+//    }
+//
+//    @Test
+//    public void TC7_BBT_BVA() { assertEquals(service.saveStudent("0", "Ema", 937), 1); }
+//
+//    @Test
+//    public void TC8_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", "Ema", 938), 0);
+//    }
+//
+//    @Test
+//    public void TC9_BBT_BVA() { assertEquals(service.saveStudent("0", "Ema", 200), 1); }
+//
+//    @Test
+//    public void TC10_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", "Ema", -1), 0);
+//    }
+//
+//    @Test
+//    public void TC11_BBT_BVA() { assertEquals(service.saveStudent("0", "abc", 123), 1); }
+//
+//    @Test
+//    public void TC12_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", "", 123), 0);
+//    }
+//
+//    @Test
+//    public void TC13_BBT_BVA() {
+//        assertEquals(service.saveStudent("0", null, 123), 0);
+//    }
 
     /// wbt
 
