@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MavenRaresBogdan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2Maven/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MavenRaresBogdan/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MavenRaresBogdan/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +185,7 @@
       <workItem from="1616232512880" duration="8214000" />
       <workItem from="1616516649981" duration="1173000" />
       <workItem from="1617533907583" duration="5997000" />
-      <workItem from="1617715737517" duration="2164000" />
+      <workItem from="1617715737517" duration="2881000" />
     </task>
     <task id="LOCAL-00001" summary="add the test methds">
       <created>1616328149061</created>
