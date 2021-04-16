@@ -7,10 +7,7 @@
     <list default="true" id="728e7727-bd21-4121-8826-ba81d3e44e52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MavenRaresBogdan/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MavenRaresBogdan/AppTest.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,42 +48,39 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV\target" />
       <recent name="D:\anul3\semestrul2\SSVV\Labs\Lab2\SSVV" />
       <recent name="C:\Users\Rares2\Desktop\an3\sem2Eu\validare\SSVV\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.AppTest (1)">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab2Maven" />
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,12 +90,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab2Maven" />
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="METHOD_NAME" value="TC1_BBT_EC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -112,12 +106,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab2Maven" />
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="METHOD_NAME" value="TC5_BBT_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -128,12 +122,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab2Maven" />
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="METHOD_NAME" value="TC7_BBT_BVA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -144,12 +138,12 @@
       <module name="SSVV" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="PATTERN" value="MavenRaresBogdan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab2Maven" />
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="PACKAGE_NAME" value="MavenRaresBogdan" />
+      <option name="MAIN_CLASS_NAME" value="MavenRaresBogdan.AppTest" />
       <option name="METHOD_NAME" value="testAddAssignmentSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -166,7 +160,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,7 +179,6 @@
       <workItem from="1616232512880" duration="8214000" />
       <workItem from="1616516649981" duration="1173000" />
       <workItem from="1617533907583" duration="5997000" />
-      <workItem from="1617715737517" duration="2881000" />
     </task>
     <task id="LOCAL-00001" summary="add the test methds">
       <created>1616328149061</created>
@@ -198,20 +191,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add the test methds" />

@@ -230,4 +230,20 @@ public class AppTest
         testAddGrade();
     }
 
+    //incremental integration
+
+    @Test
+    public void testIncrementalAssignment(){
+        testAddStudent();
+        testAddAssignment();
+    }
+
+    @Test
+    public void testIncrementalGrade(){
+        testAddStudent();
+        testAddAssignment();
+        testAddGrade();
+    }
+
+
 }
