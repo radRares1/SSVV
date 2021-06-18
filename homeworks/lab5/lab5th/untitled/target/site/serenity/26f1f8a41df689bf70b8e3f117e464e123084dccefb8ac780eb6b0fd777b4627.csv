@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword pineapple should display the corresponding article","SUCCESS","2021-05-03T21:01:21.8808296+03:00[Europe/Bucharest]","0.0","21.95"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2021-05-03T21:01:46.1964028+03:00[Europe/Bucharest]","0.0","4.78"
+"Search by keyword story","Searching by keyword mango should display the corresponding article","SUCCESS","2021-05-03T21:01:52.7683521+03:00[Europe/Bucharest]","0.0","6.36"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2021-05-03T21:02:00.4593647+03:00[Europe/Bucharest]","0.0","5.64"
